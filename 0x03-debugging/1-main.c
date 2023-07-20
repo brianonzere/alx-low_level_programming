@@ -1,16 +1,24 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * _isdigit - a function that checks for digits 0 to 9
- * @c: input character
- * Return: 1for digit and 0 for non digit
+ * main - causes an infinite loop
+ * Return: 0
  */
 
-int _isdigit(int c)
+int main(void)
 {
-	if (c >= 48 && c <= 57)
-	{
-	return (1);
-	}
+	int i;
+
+	printf("Infinite loop incoming :(\n");
+	i = 0;
+	/**
+	 * while (i < 10)
+	 * {
+	 *	putchar(i);
+	 * }
+	 */
+
+	printf("Infinite loop avoided! \\o/\n");
+
 	return (0);
 }
