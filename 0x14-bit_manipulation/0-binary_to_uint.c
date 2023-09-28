@@ -29,7 +29,7 @@ unsigned int binary_to_uint(const char *b)
 
 	for (cnt = 0; b[cnt] != '\0'; cnt++)
 	{
-		if ((b[cnt] == '0') || (b[cnt] == '1') || (b[cnt] == 'b'))
+		if ((b[cnt] == '0') || (b[cnt] == '1'))
 		{
 			i++;
 		}
