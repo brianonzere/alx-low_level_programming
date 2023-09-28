@@ -53,5 +53,6 @@ unsigned int binary_to_uint(const char *b)
 			ret = ret + 0;
 		}
 	}
+
 	return (ret);
 }
