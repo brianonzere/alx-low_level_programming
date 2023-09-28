@@ -27,6 +27,8 @@ unsigned int binary_to_uint(const char *b)
 	unsigned int ret = 0;
 	int cnt, m, i = 0;
 
+	if (b == NULL)
+		return (0);
 	for (cnt = 0; b[cnt] != '\0'; cnt++)
 	{
 		if ((b[cnt] == '0') || (b[cnt] == '1'))
