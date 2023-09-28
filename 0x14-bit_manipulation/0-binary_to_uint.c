@@ -5,7 +5,7 @@
  * @c: int pointer
  * Return: int
  */
-int bina( int c)
+int bina(int c)
 {
 	int i = 1, j;
 
@@ -13,8 +13,8 @@ int bina( int c)
 	{
 		i = i * 2;
 	}
-	
-	return(i);
+
+	return (i);
 }
 
 /**
@@ -51,5 +51,5 @@ unsigned int binary_to_uint(const char *b)
 			ret = ret + 0;
 		}
 	}
-	return(ret);
+	return (ret);
 }
